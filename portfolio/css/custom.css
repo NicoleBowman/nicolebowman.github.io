@@ -1,0 +1,115 @@
+body {
+	padding-top: 90px;
+	}
+
+h1 {
+	font-family:'Dancing Script', cursive;
+	font-size: 50px;
+	}
+
+h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	}
+
+h2.home {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	}
+	
+h3.resume {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	}
+
+h4.resume {
+	font-size: 18px;
+	margin-bottom: 1px;
+	font-variant: small-caps;
+	}
+	
+a
+{
+  color: #E65C5C;
+}
+
+a:hover, a:focus
+{
+  color: black;
+}
+
+/* Line 5223 */
+.jumbotron
+{
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.14286;
+  color: inherit;
+  background-color: #4DDBB8;
+}
+
+a.btn-primary {
+	color: black;
+	}
+	
+/* Line 2279 */
+.btn:hover, .btn:focus
+{
+  color: #00CC99;
+}
+
+/* Line 2350 */
+.btn-primary
+{
+  color: #ffffff;
+  background-color: white;
+	border: none;
+}
+
+/* Line 2356 */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary
+{
+  color: #ffffff;
+  background-color: black;
+  border-top-color: black;
+  border-right-color-value: black;
+  border-bottom-color: black;
+  border-left-color-value: black;
+}
+
+.btn-default
+{
+  color: #333333;
+  background-color: #ffffff;
+  border-top-color: #cccccc;
+  border-right-color-value: #cccccc;
+  border-bottom-color: #cccccc;
+  border-left-color-value: #cccccc;
+}
+
+
+/* Line 2310 */
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default
+{
+  color: black;
+  background-color: black;
+  border-top-color: black;
+  border-right-color-value: black;
+  border-bottom-color: black;
+  border-left-color-value: black;
+}
+
+a.btn-default:hover, a.btn-default:focus {
+	color: white;
+	}
+
+div.footer {
+	margin: 0 auto;
+	}
+	
+
