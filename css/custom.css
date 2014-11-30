@@ -1,10 +1,25 @@
+
+/************** Main Body Content **************/
+/************** Main Body Content **************/
+/************** Main Body Content **************/
+
 body {
 	padding-top: 90px;
+  background-color: #EEE9E9;
 	}
+
+  div.footer {
+  margin: 0 auto;
+  }
+
+/************** Headings **************/
+/************** Headings **************/
+/************** Headings **************/
 
 h1 {
 	font-family:'Dancing Script', cursive;
 	font-size: 50px;
+  color: #7A3E48;
 	}
 
 h2, h3, h4, h5, h6 {
@@ -24,67 +39,57 @@ h3.resume {
 
 h4.resume {
 	font-size: 18px;
+  color: #7A3E48;
 	margin-bottom: 1px;
-	font-variant: small-caps;
 	}
-	
+
+/************** Links and Buttons **************/
+/************** Links and Buttons **************/
+/************** Links and Buttons *************/
+
 a
 {
-  color: #E65C5C;
+  color: #7A3E48;
 }
 
-a:hover, a:focus
+a:hover 
 {
-  color: black;
+  color: #BC8F8F;
+  font-style: underline;
 }
 
-/* Line 5223 */
-.jumbotron
+a:visited 
 {
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.14286;
-  color: inherit;
-  background-color: #4DDBB8;
+  color: #BC8F8F;
+  font-style: underline;
 }
+
 
 a.btn-primary {
-	color: black;
+	color: white;
 	}
-	
-/* Line 2279 */
-.btn:hover, .btn:focus
-{
-  color: #00CC99;
-}
 
 /* Line 2350 */
 .btn-primary
 {
-  color: #ffffff;
-  background-color: white;
+  background-color: #BC8F8F;
 	border: none;
 }
 
 /* Line 2356 */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary
 {
-  color: #ffffff;
-  background-color: black;
-  border-top-color: black;
-  border-right-color-value: black;
-  border-bottom-color: black;
-  border-left-color-value: black;
+  color: white;
+  background-color: #7A3E48;
+  border-top-color: #BC8F8F;
+  border-right-color-value: #BC8F8F;
+  border-bottom-color: #BC8F8F;
+  border-left-color-value: #BC8F8F;
 }
 
 .btn-default
 {
-  color: #333333;
+  color: #EEE9E9;
   background-color: #ffffff;
   border-top-color: #cccccc;
   border-right-color-value: #cccccc;
@@ -92,24 +97,87 @@ a.btn-primary {
   border-left-color-value: #cccccc;
 }
 
-
-/* Line 2310 */
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default
 {
-  color: black;
-  background-color: black;
-  border-top-color: black;
-  border-right-color-value: black;
-  border-bottom-color: black;
-  border-left-color-value: black;
+  color: #BC8F8F;
+  background-color: #BC8F8F;
+  border-top-color: #BC8F8F;
+  border-right-color-value: #BC8F8F;
+  border-bottom-color: #BC8F8F;
+  border-left-color-value: #BC8F8F;
 }
 
 a.btn-default:hover, a.btn-default:focus {
 	color: white;
 	}
 
-div.footer {
-	margin: 0 auto;
-	}
-	
+/************** Navigation Bar **************/
+/************** Navigation Bar **************/
+/************** Navigation Bar **************/
 
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+a.navbar-brand 
+{
+  color: #white;
+  font-family:'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #7A3E48;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #7A3E48 ;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #7A3E48;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #7A3E48;
+    background-color: transparent;
+    font-size: 115%;
+}
+
+.navbar, .navbar-inverse, .navbar-fixed-top
+{
+  background-color: #BC8F8F;
+  color: white;
+  font-size: 15px;
+}
+
+.nav, .navbar-nav
+{
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li.navbar-collapse collapse
+{
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-fixed-top {
+    top: 0px;
+    border-width: 0px 0px 0px;
+}
