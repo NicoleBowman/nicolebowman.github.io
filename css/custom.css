@@ -8,9 +8,38 @@ body {
   background-color: #EEE9E9;
 	}
 
-  div.footer {
+div.footer {
   margin: 0 auto;
   }
+
+p.home {
+  font-size: 18px;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+p {
+   font-family: 'Pontano Sans', sans-serif;
+   font-size: 16px;
+
+}
+
+dt {
+    font-size: 16px;
+     font-family: 'Pontano Sans', sans-serif;
+
+}
+
+dd {
+    font-size: 16px;
+     font-family: 'Pontano Sans', sans-serif;
+
+}
+
+li {
+      font-size: 16px;
+     font-family: 'Pontano Sans', sans-serif;
+
+}
 
 /************** Headings **************/
 /************** Headings **************/
@@ -18,18 +47,20 @@ body {
 
 h1 {
 	font-family:'Dancing Script', cursive;
-	font-size: 50px;
+	font-size: 60px;
   color: #7A3E48;
+  margin-top: 0px;
+  padding-top: 0px;
 	}
 
 h2, h3, h4, h5, h6 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 20px;
+  font-family: 'Pontano Sans', sans-serif;
+	font-size: 24px;
 	}
 
 h2.home {
 	font-family: 'Dancing Script', cursive;
-	font-size: 40px;
+	font-size: 100px;
 	}
 	
 h3.resume {
@@ -41,6 +72,7 @@ h4.resume {
 	font-size: 18px;
   color: #7A3E48;
 	margin-bottom: 1px;
+       font-family: 'Pontano Sans', sans-serif;
 	}
 
 /************** Links and Buttons **************/
@@ -180,4 +212,14 @@ li.navbar-collapse collapse
 .navbar-fixed-top {
     top: 0px;
     border-width: 0px 0px 0px;
+}
+
+/* ----------------------------Social Media Icons --------------------------------- */
+a.socialIcons {
+margin-right: 0px; /* Increase the number to increase the space between the icons */
+}
+
+a.socialIcons:hover {
+opacity: .8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
 }
